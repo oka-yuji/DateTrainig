@@ -9,8 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Button(action: {
+            let time: TimeInterval = 30000000
+                       let formatter = DateComponentsFormatter()
+                       formatter.unitsStyle = .full
+                       formatter.includesApproximationPhrase = false
+                       formatter.includesTimeRemainingPhrase = false
+                       formatter.allowedUnits = [.day, .hour, .minute, .second]
+                       let outputString = formatter.string(from: time)!
+                       print(outputString)
+        }, label: {
+            Text("Button")
+        })
     }
 }
 
