@@ -13,6 +13,7 @@
 		28C894BD266CFED900539AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C894BC266CFED900539AF3 /* Assets.xcassets */; };
 		28C894C0266CFED900539AF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C894BF266CFED900539AF3 /* Preview Assets.xcassets */; };
 		28C894C3266CFED900539AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C894C1266CFED900539AF3 /* LaunchScreen.storyboard */; };
+		28C894CC266D15D300539AF3 /* RelativeDateTimeFormatterTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C894CB266D15D300539AF3 /* RelativeDateTimeFormatterTraining.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		28C894BF266CFED900539AF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		28C894C2266CFED900539AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28C894C4266CFED900539AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C894CB266D15D300539AF3 /* RelativeDateTimeFormatterTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeDateTimeFormatterTraining.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				28C894B6266CFED800539AF3 /* AppDelegate.swift */,
 				28C894B8266CFED800539AF3 /* SceneDelegate.swift */,
 				28C894BA266CFED800539AF3 /* ContentView.swift */,
+				28C894CB266D15D300539AF3 /* RelativeDateTimeFormatterTraining.swift */,
 				28C894BC266CFED900539AF3 /* Assets.xcassets */,
 				28C894C1266CFED900539AF3 /* LaunchScreen.storyboard */,
 				28C894C4266CFED900539AF3 /* Info.plist */,
@@ -148,6 +151,7 @@
 				28C894B7266CFED800539AF3 /* AppDelegate.swift in Sources */,
 				28C894B9266CFED800539AF3 /* SceneDelegate.swift in Sources */,
 				28C894BB266CFED800539AF3 /* ContentView.swift in Sources */,
+				28C894CC266D15D300539AF3 /* RelativeDateTimeFormatterTraining.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
